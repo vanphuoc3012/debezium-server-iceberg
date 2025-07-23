@@ -11,7 +11,6 @@ env:
 jobs:
   build:
     name: Main
-    if: github.repository_owner == 'memiiso'
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repo
